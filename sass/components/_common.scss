@@ -1,0 +1,28 @@
+body {
+    font-family: $fontFamily;
+    font-weight: 400;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}

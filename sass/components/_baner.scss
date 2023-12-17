@@ -1,0 +1,72 @@
+.baner {
+    min-height: 585px;
+    padding-top: 180px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/baner1.jpg);
+    background-color: $firstBackgroundColor;
+    background-size: cover;
+}
+
+.brand-wrap {
+    width: 546px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;  
+    color:$firstLiteColor;  
+
+    & p {
+        margin-bottom: 20px;
+        font-family: $secondFontFamily;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    & a {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color:inherit;  
+    }
+}
+
+.brand-title {
+    margin-bottom: 40px;
+    font-family: $secondFontFamily;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.baner-list {
+    display: flex;
+    justify-content: center;
+}
+
+.baner-list__item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $firstLiteColor;;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &.active {
+        background-color: $firstDarkColor;
+    }
+}
+
+
+.baner-list__link {
+    display: block;
+    color:$firstLiteColor;
+    width: 10px;
+    height: 10px;
+}
+
