@@ -1,0 +1,36 @@
+.about {
+    height: 500px;
+    background-color: $secondBackgroundColor;
+}
+
+.about-container {
+    position: relative;
+}
+
+.about-description__thumb {
+    padding-top: 150px;
+    width: 498px;
+
+    & > h2 {
+        width: 80px;
+        margin-bottom: 20px;
+        font-family: $secondFontFamily;
+        font-size: 30px;
+        font-weight: 400;
+        color: $firstLiteColor;
+    }
+
+    & > p {
+        font-size: 14px;
+        color: $secondLiteColor;
+    }
+
+}
+
+.about-img_thumb {
+    position: absolute;
+    width: 474px;
+    height: 543px;
+    top: 50px;
+    right: 0;
+}
